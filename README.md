@@ -11,22 +11,23 @@ echo \
 # Instalar Docker y Docker Compose plugin
 sudo apt update && sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
-# Instalar Docker Engine y Docker Compose
-sudo apt update
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
 
 # Verificar instalación
 docker --version
-docker compose version
+
+docker compose --version
 
 
 # Clonar repo 
 
- "" mkdir -p ~/proyectos/zabbix-docker
+    mkdir -p ~/proyectos/zabbix-docker ""
+ 
     cd ~/proyectos/zabbix-docker   ""
 
 
  git clone https://github.com/Mirnico/zabbix-server
+ 
  cd zabbix-server
 
 
@@ -35,12 +36,10 @@ docker compose version
 
 # Comandos docker 
 
-# en PC lentas 
-
-COMPOSE_HTTP_TIMEOUT=300 docker-compose up -d
+( en PC lentas  COMPOSE_HTTP_TIMEOUT=300 docker-compose up -d )
 
 
-Sino docker-compose up -d
+ docker-compose up -d
 
 
 # Zabbix-Server
