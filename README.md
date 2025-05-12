@@ -25,6 +25,18 @@ docker --version
 docker compose version
 
 
+#Clonar repo 
+
+ "" mkdir -p ~/proyectos/zabbix-docker
+    cd ~/proyectos/zabbix-docker   ""
+
+
+ git clone https://github.com/Mirnico/zabbix-server
+ cd zabbix-server
+
+
+
+
 
 # Comandos docker 
 
