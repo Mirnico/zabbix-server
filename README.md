@@ -25,7 +25,7 @@ docker --version
 docker compose version
 
 
-#Clonar repo 
+# Clonar repo 
 
  "" mkdir -p ~/proyectos/zabbix-docker
     cd ~/proyectos/zabbix-docker   ""
